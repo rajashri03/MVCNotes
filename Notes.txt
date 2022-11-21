@@ -1,0 +1,47 @@
+MVC stands for Model, View, and Controller. 
+MVC separates an application into three components - Model, View, and Controller.
+ASP.NET MVC is a web application development framework 
+
+MVC
+MVC is the model that represents the shape of the data
+and a class in c# is used to descreive a model.
+the model component corresponds to all the data related logic that user works with.
+
+this represents either the data that is being transferred between view and controller
+or any business logic related to data..
+model would also represent all the tables of the database
+so if you have 10 tables in the database you will have at least 10 models..
+
+if class is model so all the properties in that class will be all the columns of a table.
+
+
+view
+view in mvc is user interface.
+view basically means whatever you see.
+when you click a web page the UI that you see that will be represented by the view.
+view in asp.net mvc is html,css
+main thing about view is that is represents the user interface logic of your application.
+
+
+
+controller
+it handles the user request.
+typically whenever a request comes like user clicks anythings it will raise an http request which
+will be handled by the controller.
+
+controller then uses the model as well as view to process the request and then it returns back an appropriate responce.
+
+so controller acts as an interface between model and view to process all the business logic
+incoming requests and it manipulates the data using model and interact with the view to render the final output.
+
+
+
+so if used click somewhere on web pages
+so request comes to controller..
+controller will always be the main entry point in an mvc application.
+and in controller it will hit any of the action methos that we have defined inside the controller.
+now controller uses the model and it will fetch all the data that it needs to display in a view
+then it passes that data to the view so that view can render the final pages that user can see.
+then view will send the request back to the controller and then based on whatever is rendered a response will
+be sent back and user will be abel to see the page 
+so controller can be treated as heart of your application.
