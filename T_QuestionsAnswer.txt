@@ -1,0 +1,76 @@
+ASP.NET is a web application development framework used to develop web applications using different back-end programming languages like C#
+where C# is used as an object-oriented programming language to develop web applications along with ASP.NET.
+
+
+Difference between ASP.net and C#
+
+Asp.net                             					C#
+It was designed as a framework to be developed			It was designed as programming languages.
+using C#
+
+
+this can be used to develop web application using		It is programming langagues used to develop application along with asp.net.
+any languages like C#,VB.Net.
+
+ASP.NET is the medium for these types of programming 		whereas C# is used to write different types of applications such as Web applications, 
+languages such as C# to provide APIs (Application		Web services and Windows applications (Standalone apps).
+Programming Interfaces) or libraries to ease the 
+development process with readymade functionalities
+
+
+
+ASP.net life cycle
+life cycle includes 2 different stages
+
+asp.net has some specific steps that to be carried out for an applicarion these steps are called life cycle.
+
+so asp.net life cycle divided into 2 groups
+1)Application life cycle
+2)Page life cycle
+
+
+
+1)Application life cycle
+Application life cycle is part that starts when the user makes request..this requests involves serveral stages 
+are
+Application start--->object creation--->HTTP Application--->Dispose--->ApplicationEnd
+
+
+
+Applicatio start--whenever a user requests an application for accessing a web server first the request is checked and then the request for accessing 
+it is provided
+Object creation--it helps in holding all the infromation about the request ,cookies and brwoings infromation..it also holds http contecxt,htpp request
+ and http response by the browser
+Http application--it holds back all subsequent infro sent back to the user by the web driver
+eg-if we have two diff applications like one is a gaming application and second is social medai application then that means there will be http applications
+ that are to be created to process the application
+Dispose--it helps in erasing the unmanged resources when the objects are no longer needed 
+Application end-it helps to unload the memory of an application 
+unloading memory means cleaning up the unwanted files in the application.
+
+
+
+Page cycle-
+page life cycle included page initilization,restoring and excution.
+when as asp.net page is called it goes through some phases before the response is sent to the user.
+
+Page request--->page start--->page initilization--->paage load --->validation--->event handling--->rendering--->unload
+
+page request---when the user request a page the sever checks the request and then compiles the page and responds to the user
+if the requested servral times then the cache will check the request to see the if the oupute exits or not and after that it will send a respose back to 
+the user.
+page start--it hold two object --request and response  then requests holds all the information from the page which was sent when the page was requested 
+and the response holds all the infromation sent back to the user
+page initilization--during the page initilization phase all controls are initilized and each controller is provided with specific id ,in the page 
+initilization phase themes are also applied to the application
+
+page load--in this phase application is provided with some control propertied and infromation is also checked using view state and control state 
+validation-when page is excuted the result of those pages are provied in the form of two conditions ,,true and false
+
+event hanglind--it is reponse to the validation phase,in this phase pages are loaded again and display the same infromation .in order to overcome this 
+a post back event is called ..this event helps in checking the credentails of the user
+
+
+rendering-it occures when all the response inforamtion has been sent back to the user ..this phase also stores all the infromation that is being sent
+
+Unload-it helps to clean all the  unwanted information.it also cleans the memory once the oage output is sent to the user.
